@@ -12,6 +12,14 @@ body {
   	/* Color */
   	--color-royalblue: #155eef;
   	--color-white: #fff;
+		--color-darkslategray-100: #414651;
+		--color-darkslategray-200: #252b37;
+		--color-ghostwhite: #f5f8ff;
+		--color-gray: #181d27;
+		--color-royalblue: #155eef;
+		
+		/* Gap */
+		--gap-48: 3rem;
   	
   	/* Font */
   	--font-helvetica-now-display: Helvetica Now Display;

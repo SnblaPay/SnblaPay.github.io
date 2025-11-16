@@ -1,0 +1,379 @@
+.intro {
+  	width: 100%;
+		height: 100vh;
+  	position: relative;
+  	background: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0)), linear-gradient(180deg, var(--color-royalblue), #004eeb);
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 10rem;
+  	box-sizing: border-box;
+  	gap: 1.5rem;
+  	text-align: left;
+  	font-size: 1.875rem;
+  	color: var(--color-royalblue);
+  	font-family: var(--font-inter);
+}
+.intro-cover {
+	background: url("../img/emblemBG.svg") no-repeat center center / cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+}
+.snblapay-logo {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: -27.812rem;
+  	left: calc(50% - 960px);
+  	display: flex;
+  	align-items: center;
+  	opacity: 0.05;
+  	z-index: 0;
+}
+.logomark-icon {
+  	height: 218.75rem;
+  	width: 182.294rem;
+  	position: relative;
+}
+.container {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 3rem;
+  	z-index: 1;
+}
+.label {
+  	box-shadow: 0px 2.25px 4.5px -15px rgba(36, 36, 36, 0.1);
+  	border-radius: 99999px;
+  	background: linear-gradient(165.6deg, var(--color-white), #d1e0ff);
+  	display: flex;
+  	align-items: center;
+  	padding: 1.25rem 2.5rem;
+}
+.reward-retain-regrow {
+  	position: relative;
+  	letter-spacing: 3px;
+  	line-height: 2.25rem;
+  	text-transform: uppercase;
+  	font-weight: 600;
+}
+.title {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	font-size: 9.375rem;
+  	color: var(--color-white);
+}
+.turn-every-payment {
+  	flex: 1;
+  	position: relative;
+  	line-height: 9.375rem;
+  	font-weight: 600;
+}
+.footer {
+  	align-self: stretch;
+  	height: var(--height-72);
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 1.25rem;
+  	z-index: 2;
+  	font-size: 3rem;
+  	color: var(--color-white);
+  	font-family: var(--font-helvetica-now-display);
+}
+.intro-snblapay-logo {
+  	display: flex;
+  	align-items: center;
+  	gap: 1.125rem;
+}
+.logomark {
+  	height: var(--height-72);
+  	width: 3.75rem;
+  	position: relative;
+		
+}
+.vector-icon {
+  	position: absolute;
+  	height: 41.67%;
+  	width: 60%;
+  	top: 8.33%;
+  	right: 40%;
+  	bottom: 50%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.intro-vector-icon {
+  	position: absolute;
+  	height: 50%;
+  	width: 50%;
+  	top: 8.33%;
+  	right: 0%;
+  	bottom: 41.67%;
+  	left: 50%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	opacity: 0.8;
+}
+.vector-icon2 {
+  	position: absolute;
+  	height: 41.67%;
+  	width: 60%;
+  	top: 50%;
+  	right: 0%;
+  	bottom: 8.33%;
+  	left: 40%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	opacity: 0.6;
+}
+.vector-icon3 {
+  	position: absolute;
+  	height: 50%;
+  	width: 50%;
+  	top: 41.67%;
+  	right: 50%;
+  	bottom: 8.33%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	opacity: 0.4;
+}
+.wordmark {
+  	height: var(--height-72);
+  	width: 12.75rem;
+  	position: relative;
+}
+.snblapay {
+  	position: absolute;
+  	top: 0rem;
+  	left: 0rem;
+  	letter-spacing: -0.02em;
+  	line-height: 4.5rem;
+  	font-weight: 800;
+}
+.text-wrapper {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 1.5rem;
+  	font-family: var(--font-inter);
+}
+.text {
+  	position: relative;
+  	line-height: 2rem;
+}
+.copyrights {
+font-size: 1rem;
+}
+
+.about {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: var(--color-ghostwhite);
+	overflow: hidden;
+	display: flex;
+	align-items: flex-start;
+	padding: 10rem;
+	box-sizing: border-box;
+	gap: var(--gap-48);
+	text-align: left;
+	font-size: 3rem;
+	color: var(--color-gray);
+	font-family: var(--font-helvetica-now-display);
+}
+
+.about .blur-bg-icon {
+	height: 90.125rem;
+	width: 110.5rem;
+	position: absolute;
+	margin: 0 !important;
+	top: 0rem;
+	left: 64.75rem;
+	object-fit: contain;
+	opacity: 0.8;
+	z-index: 0;
+	flex-shrink: 0;
+}
+
+.about .left-side {
+	align-self: stretch;
+	width: 60rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--gap-48);
+	z-index: 1;
+	flex-shrink: 0;
+}
+
+.about .header {
+	align-self: stretch;
+	height: var(--height-72);
+	display: flex;
+	align-items: center;
+}
+
+.about .snblapay-logo {
+	display: flex;
+	align-items: center;
+	gap: 1.125rem;
+}
+
+.about .logomark {
+	height: var(--height-72);
+	width: 3.75rem;
+	position: relative;
+}
+
+.about .vector-icon {
+	position: absolute;
+	height: 41.67%;
+	width: 60%;
+	top: 8.33%;
+	right: 40%;
+	bottom: 50%;
+	left: 0%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+
+.about .about-vector-icon {
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	top: 8.33%;
+	right: 0%;
+	bottom: 41.67%;
+	left: 50%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	opacity: 0.8;
+}
+
+.about .vector-icon2 {
+	position: absolute;
+	height: 41.67%;
+	width: 60%;
+	top: 50%;
+	right: 0%;
+	bottom: 8.33%;
+	left: 40%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	opacity: 0.6;
+}
+
+.about .vector-icon3 {
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	top: 41.67%;
+	right: 50%;
+	bottom: 8.33%;
+	left: 0%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	opacity: 0.4;
+}
+
+.about .wordmark {
+	height: var(--height-72);
+	width: 12.75rem;
+	position: relative;
+}
+
+.about .snblapay {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	letter-spacing: -0.02em;
+	line-height: 4.5rem;
+	font-weight: 800;
+}
+
+.about .container {
+	align-self: stretch;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	gap: var(--gap-48);
+	font-size: 6rem;
+	color: var(--color-darkslategray-200);
+	font-family: var(--font-inter);
+}
+
+.about .title {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+}
+
+.about .your-wallet-your-container {
+	flex: 1;
+	position: relative;
+	line-height: 6.5rem;
+	font-weight: 600;
+}
+
+.about .control {
+	color: var(--color-royalblue);
+}
+
+.about .content {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	color: var(--color-darkslategray-100);
+}
+
+.about .snblapay-gives-your {
+	flex: 1;
+	position: relative;
+	line-height: 2.25rem;
+}
+
+.about .snblapay-logo-wrapper {
+	align-self: stretch;
+	flex: 1;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	flex-shrink: 0;
+}
+
+.about .about-snblapay-logo {
+	display: flex;
+	align-items: center;
+}
+
+.about .brandmark-icon {
+	height: 30rem;
+	width: 30rem;
+	border-radius: 120px;
+}
