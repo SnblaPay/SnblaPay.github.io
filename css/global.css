@@ -1,0 +1,23 @@
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+
+:root {
+  	
+  	/* Common Style Variables */
+  	
+  	/* Color */
+  	--color-royalblue: #155eef;
+  	--color-white: #fff;
+  	
+  	/* Font */
+  	--font-helvetica-now-display: Helvetica Now Display;
+  	--font-inter: Inter;
+  	
+  	/* WidthHeights */
+  	--height-72: 4.5rem;
+  	
+}
