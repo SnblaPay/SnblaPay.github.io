@@ -16,7 +16,7 @@
   	font-family: var(--font-inter);
 }
 .intro-cover {
-	background: url("../img/emblemBG.svg") no-repeat center center / cover;
+	background: url("../img/emblem-bg.svg") no-repeat center center / cover;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -376,4 +376,196 @@ font-size: 1rem;
 	height: 30rem;
 	width: 30rem;
 	border-radius: 120px;
+}
+
+/* Add these responsive styles to your index.css file */
+
+/* Tablet and smaller screens */
+@media screen and (max-width: 1024px) {
+	.intro {
+		padding: 6rem 4rem;
+	}
+
+	.intro .title {
+		font-size: 6rem;
+	}
+
+	.intro .turn-every-payment {
+		line-height: 6rem;
+	}
+
+	.intro .label {
+		padding: 1rem 2rem;
+	}
+
+	.intro .reward-retain-regrow {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+	}
+
+	.about {
+		padding: 6rem 4rem;
+		flex-direction: column;
+		height: auto;
+		min-height: 100vh;
+	}
+
+	.about .left-side {
+		width: 100%;
+	}
+
+	.about .your-wallet-your-container {
+		font-size: 4rem;
+		line-height: 4.5rem;
+	}
+
+	.about .snblapay-logo-wrapper {
+		width: 100%;
+		min-height: 400px;
+	}
+
+	.about .brandmark-icon {
+		height: 20rem;
+		width: 20rem;
+	}
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+	.intro {
+		padding: 4rem 2rem;
+	}
+
+	.intro .container {
+		gap: 2rem;
+	}
+
+	.intro .title {
+		font-size: 3.5rem;
+	}
+
+	.intro .turn-every-payment {
+		line-height: 3.75rem;
+	}
+
+	.intro .label {
+		padding: 0.75rem 1.5rem;
+	}
+
+	.intro .reward-retain-regrow {
+		font-size: 1rem;
+		line-height: 1.5rem;
+		letter-spacing: 2px;
+	}
+
+	.intro .footer {
+		flex-direction: column;
+		align-items: flex-start;
+		height: auto;
+		gap: 1.5rem;
+	}
+
+	.intro .logomark {
+		height: 3rem;
+		width: 2.5rem;
+	}
+
+	.intro .text {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
+
+	.about {
+		padding: 4rem 2rem;
+		gap: 2rem;
+	}
+
+	.about .left-side {
+		gap: 2rem;
+	}
+
+	.about .header {
+		height: auto;
+	}
+
+	.about .logomark {
+		height: 3rem;
+		width: 2.5rem;
+	}
+
+	.about .container {
+		gap: 2rem;
+	}
+
+	.about .your-wallet-your-container {
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+
+	.about .snblapay-gives-your {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
+
+	.about .snblapay-logo-wrapper {
+		min-height: 300px;
+	}
+
+	.about .brandmark-icon {
+		height: 15rem;
+		width: 15rem;
+		border-radius: 60px;
+	}
+
+	.about .blur-bg-icon {
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Small mobile screens */
+@media screen and (max-width: 480px) {
+	.intro {
+		padding: 3rem 1.5rem;
+	}
+
+	.intro .title {
+		font-size: 2.5rem;
+	}
+
+	.intro .turn-every-payment {
+		line-height: 2.75rem;
+	}
+
+	.intro .label {
+		padding: 0.5rem 1rem;
+	}
+
+	.intro .reward-retain-regrow {
+		font-size: 0.75rem;
+		line-height: 1.25rem;
+		letter-spacing: 1.5px;
+	}
+
+	.about {
+		padding: 3rem 1.5rem;
+	}
+
+	.about .your-wallet-your-container {
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	.about .snblapay-gives-your {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	.about .brandmark-icon {
+		height: 12rem;
+		width: 12rem;
+		border-radius: 48px;
+	}
 }
