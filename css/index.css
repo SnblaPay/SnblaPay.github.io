@@ -1,6 +1,6 @@
 .intro {
   	width: 100%;
-  	height: 67.5rem;
+  	height: 100hv;
   	position: relative;
   	background: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0)), linear-gradient(180deg, var(--color-royalblue), #004eeb);
   	overflow: hidden;
