@@ -1,3 +1,8 @@
+/* Add font imports at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/* Note: Helvetica Now Display is a commercial font. Using a similar alternative */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
 
 body {
   	margin: 0;
@@ -17,7 +22,7 @@ body {
 		--color-ghostwhite: #f5f8ff;
 		--color-gray: #181d27;
 		--color-royalblue: #155eef;
-		
+
 		/* Gap */
 		--gap-48: 3rem;
   	
